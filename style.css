@@ -51,6 +51,7 @@
 
 
   width: auto;
+  padding-left: 2%;
 }
 .navbar__menu {
   display: flex;
