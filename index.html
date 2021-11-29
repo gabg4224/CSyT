@@ -6,7 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSyT</title>
+    <!-----------awesome font link------->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+    <!-----------custom css file----------->
+
     <link rel="stylesheet" href="..//CSyT/style.css" type="text/css">
+    <link rel="stylesheet" href="..//CSyT/navBar.css" type="text/css">
+    <link rel="stylesheet" href="..//CSyT/homeSection.css" type="text/css">
+    <link rel="stylesheet" href="..//CSyT/aboutSection.css" type="text/css">
     <link rel="icon" href="..//CSyT/logo_circular.ico">
 </head>
 
@@ -76,79 +86,7 @@
                 <span class="bar"></span>
             </div>
             <div class="pop__up">
-                <h2>Nuestra Historia</h2>
-                <div>
 
-
-                    <h3>Fundada en el año 2011 por su directora Albery Patiño
-                        en Maracay - Venezuela</h3>
-                    <p>
-                        ha contado con
-                        innumerables aprendices y un importante staff de
-                        instructores en sus años de enseñanza
-                    </p>
-
-
-                    <p>
-                        quienes han
-                        contribuido de forma importante con la evolución y
-                        crecimiento de la institución
-                    </p>
-
-                    <p>
-                        A partir de Marzo 2019 comenzamos nuestras
-                        actividades en Buenos Aires - Argentina
-                    </p>
-
-                    <p>
-                        formando a
-                        bailadores y presentando una oportunidad única a los
-                        venezolanos en el exterior para disfrutar del calor del
-                        baile.
-                    </p>
-
-                </div>
-
-
-                <div>
-                    <h3>Siempre comprometidos con nuestra vision y mision</h3>
-
-
-
-                    <p>
-                        Ser una organización líder en el ámbito artístico,
-                        con un amplio y diverso equipo de excelente nivel,
-                        beneficiándonos de los avances tecnológicos para
-                        complementar la enseñanza.
-                    </p>
-
-                    <p>
-                        Ofrecer instrucción profesional debrindar un tiempo de relax y seguidamente formar
-                        expertos en el área.
-                    </p>
-
-                </div>
-
-                <div>
-                    <h3>Nos distinguimos del resto por los valores que nos convierte en una familia</h3>
-
-
-
-                    <p>
-                        Solidaridad
-                    </p>
-
-                    <p>
-                        Integridad
-                    </p>
-
-                    <p>
-                       Tolerancia
-                    </p>
-                    <p>
-                        Excelencia
-                    </p>
-                </div>
 
             </div>
 
@@ -160,71 +98,89 @@
 
     <!--  About Us Section-->
 
+
+
     <section class="main" id="about">
+
+
+
+
+
         <section class="about__container">
             <h2 class="about__heading">quienes somos?</h2>
             <h3 class="about__description">bla bla bla re motivacional sobre que vas a bailar arrechisimo
 
             </h3>
-            <div class="about__cards">
+            <div class="about__cards" id="about__cards">
 
 
-                <div id="info__instructors">
-                </div>
+
                 <article class="cardd academy" id="academy">
+                    <div class="cardd__toggle" id="close__cardd__academy">
 
 
-                    <div class="card__img"></div>
+                        <div class="card__info">
+                            <span class="card__category">info</span>
+                            <h3 class="card__title">Alumnos</h3>
+                            <span class="card__by">by<a href="#" class="card__author">albery/CSyT</a></span>
+                        </div>
 
-                    <a href="#" class="card_link">
-                        <div class="card__img-hover"></div>
-                    </a>
 
-                    <div class="card__info">
-                        <span class="card__category">info</span>
-                        <h3 class="card__title">Academia</h3>
-                        <span class="card__by">by<a href="#" class="card__author">albery/CSyT</a></span>
                     </div>
+                    <div class="slider">
+
+                        <img src="..//CSyT/solecito.jpg" alt="">
+                        <p id='write__academy'>0</p>
+                        <div id="next__academy" class="fas fa-chevron-right next"></div>
+                        <div id="prev__academy" class="fas fa-chevron-left prev"></div>
+                        <div id="return__academy" class="fas fa-chevron-right return"></div>
                 </article>
 
 
-            <article class="cardd instructors" id="instructors">
-                    
+                <article class="cardd instructors" id="instructors">
+                    <div class="cardd__toggle" id="close__cardd__instructors">
 
-                    <div class="card__img"></div>
 
-                    <a href="#" class="card_link">
-                        <div class="card__img-hover"></div>
-                    </a>
+                        <div class="card__info">
+                            <span class="card__category">info</span>
+                            <h3 class="card__title">Alumnos</h3>
+                            <span class="card__by">by<a href="#" class="card__author">albery/CSyT</a></span>
+                        </div>
 
-                    <div class="card__info">
-                        <span class="card__category">info</span>
-                        <h3 class="card__title">instructores</h3>
-                        <span class="card__by">by<a href="#" class="card__author">albery/CSyT</a></span>
+
                     </div>
+                    <div class="slider">
 
-                    
-                   
+                        <img src="..//CSyT/pedros.jpg" alt="">
+                        <p id='write__instructors'>0</p>
+                        <div id="next__instructors" class="fas fa-chevron-right next"></div>
+                        <div id="prev__instructors" class="fas fa-chevron-left prev"></div>
+                        <div id="return__instructors" class="fas fa-chevron-right return"></div>
                 </article>
 
-                 
 
 
-            
+
+
                 <article class="cardd alumns" id="alumns">
+                    <div class="cardd__toggle" id="close__cardd__alumns">
 
 
-                    <div class="card__img"></div>
+                        <div class="card__info">
+                            <span class="card__category">info</span>
+                            <h3 class="card__title">Alumnos</h3>
+                            <span class="card__by">by<a href="#" class="card__author">albery/CSyT</a></span>
+                        </div>
 
-                    <a href="#" class="card_link">
-                        <div class="card__img-hover"></div>
-                    </a>
 
-                    <div class="card__info">
-                        <span class="card__category">info</span>
-                        <h3 class="card__title">Alumnos</h3>
-                        <span class="card__by">by<a href="#" class="card__author">albery/CSyT</a></span>
                     </div>
+                    <div class="slider">
+
+                        <img src="..//CSyT/alumnos.jpg" alt="">
+                        <p id='write__alumns'>0</p>
+                        <div id="next__alumns" class="fas fa-chevron-right next"></div>
+                        <div id="prev__alumns" class="fas fa-chevron-left prev"></div>
+                        <div id="return__alumns" class="fas fa-chevron-right return"></div>
                 </article>
             </div>
         </section>
@@ -280,6 +236,7 @@
         </article>
     </section>
     <script src="..//CSyT/script.js"></script>
+    <script src="..//CSyT/htmlChanges.js"></script>
 </body>
 
 </html>
